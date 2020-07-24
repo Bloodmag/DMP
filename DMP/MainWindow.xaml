@@ -1,0 +1,28 @@
+﻿<Window x:Class="DMP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DMP"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#191919">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <MediaElement Name="mediaPlayer" Grid.Column="0" LoadedBehavior="Manual" MediaFailed="mediaPlayer_MediaFailed"></MediaElement>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="2" Click="Button_LoadSchedule_Click" Foreground="White" FontWeight="Bold" Background="#c00" Margin="3px" BorderBrush="#c00000">
+                Load schedule
+            </Button>
+        </Grid>
+    </Grid>
+</Window>

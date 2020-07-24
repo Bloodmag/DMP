@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF", "DMP\WPF.csproj", "{2C569E65-D219-4A70-96A8-1C0A6A2F2213}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Core", "Core\Core.shproj", "{D81557D6-BEBE-4785-B3CF-F5A37D5815E6}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Core\Core.projitems*{2c569e65-d219-4a70-96a8-1c0a6a2f2213}*SharedItemsImports = 5
+		Core\Core.projitems*{d81557d6-bebe-4785-b3cf-f5a37d5815e6}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C569E65-D219-4A70-96A8-1C0A6A2F2213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C569E65-D219-4A70-96A8-1C0A6A2F2213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C569E65-D219-4A70-96A8-1C0A6A2F2213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C569E65-D219-4A70-96A8-1C0A6A2F2213}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15153CCB-B473-4FCF-8991-1DBCA28695F1}
+	EndGlobalSection
+EndGlobal
